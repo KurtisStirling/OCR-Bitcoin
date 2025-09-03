@@ -79,7 +79,7 @@
 <body>
 <div id="container">
     <div id="header">
-		OCR-Bitcoin Regular    </div>
+		OCR-₿itcoin Regular  </div>
     <ul class="tabs">
         <li><a href="#specimen">Specimen</a></li>
         <li><a href="#layout">Sample Layout</a></li>
@@ -95,7 +95,7 @@
 
             <div class="section">
                 <div class="grid12 firstcol">
-                    <div class="huge">AaBb</div>
+                    <div class="huge">₿··</div>
                 </div>
             </div>
 
@@ -582,21 +582,22 @@
 
                     <code>
                         @font-face{
-                        font-family: 'MyWebFont';
-                        src: url('WebFont.eot');
-                        src: url('WebFont.eot?#iefix') format('embedded-opentype'),
-                        url('WebFont.woff') format('woff'),
-                        url('WebFont.ttf') format('truetype'),
-                        url('WebFont.svg#webfont') format('svg');
+                        font-family: 'OCR-Bitcoin';
+                        src: url('https://design-rrr.github.io/OCR-Bitcoin/webfontkit/ocr-bitcoin-webfont.eot');
+                        src: url('https://design-rrr.github.io/OCR-Bitcoin/webfontkit/ocr-bitcoin-webfont.eot?#iefix') format('embedded-opentype'),
+                        url('https://design-rrr.github.io/OCR-Bitcoin/webfontkit/ocr-bitcoin-webfont.woff') format('woff'),
+                        url('https://design-rrr.github.io/OCR-Bitcoin/webfontkit/ocr-bitcoin-webfont.woff2') format('woff2'),
+                        url('https://design-rrr.github.io/OCR-Bitcoin/webfontkit/ocr-bitcoin-webfont.svg') format('svg'),
+                        url('https://design-rrr.github.io/OCR-Bitcoin/webfontkit/ocr-bitcoin-webfont.ttf') format('truetype')
                         }
                     </code>
 
                     <p>We've already gone ahead and generated the code for you. All you have to do is link to the stylesheet in your HTML, like this:</p>
-                    <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;stylesheet.css&quot; type=&quot;text/css&quot; charset=&quot;utf-8&quot; /&gt;</code>
+                    <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://design-rrr.github.io/OCR-Bitcoin/webfontkit/stylesheet.css&quot; type=&quot;text/css&quot; charset=&quot;utf-8&quot; /&gt;</code>
 
                     <h2>3. Modify your own stylesheet</h2>
                     <p>To take advantage of your new fonts, you must tell your stylesheet to use them. Look at the original @font-face declaration above and find the property called "font-family." The name linked there will be what you use to reference the font. Prepend that webfont name to the font stack in the "font-family" property, inside the selector you want to change. For example:</p>
-                    <code>p { font-family: 'WebFont', Arial, sans-serif; }</code>
+                    <code>p { font-family: 'OCR-Bitcoin', Helvetica, Arial, sans-serif; }</code>
 
                     <h2>4. Test</h2>
                     <p>Getting webfonts to work cross-browser <em>can</em> be tricky. Use the information in the sidebar to help you if you find that fonts aren't loading in a particular browser.</p>

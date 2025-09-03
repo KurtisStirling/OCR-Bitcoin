@@ -1,8 +1,11 @@
-MIT Licensed bitcoin font (see LICENSE.txt).
+`MIT Licensed bitcoin font (see LICENSE.txt).`
 
-Preview: [https://design-rrr.github.io/OCR-Bitcoin](https://design-rrr.github.io/OCR-Bitcoin)
+![](https://design-rrr.github.io/OCR-Bitcoin/media/06.png)
 
-This font is not intended for Optical Character Recognition use.
+Live preview: [https://design-rrr.github.io/OCR-Bitcoin](https://design-rrr.github.io/OCR-Bitcoin)
+
+`This font is not intended for Optical Character Recognition use.`
+
 
 # Lineage
 
